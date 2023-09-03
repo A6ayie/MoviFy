@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+   background-color: rgb(27, 27, 27);
+   padding-bottom: 40px;
+}
+h1{
+    color: red;
+    text-align: center;
+    padding-top: 24px;
+}
+
+
+
+.container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.card{
+    display: grid;
+    background: white;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: grey;
+    height:158px ;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 ;
+
+}
+
+.car-1{
+    background-image: url(Movie_images/Kukuo.jpg);
+}
+.car-2{
+    background-image: url(Movie_images/Ma\ ye\ wo\ dien.jpg);
+}
+.car-3{
+    background-image: url(Movie_images/Manson\ Hene.jpg);
+}
+.car-4{
+    background-image: url(Movie_images/Musuo\ ben\ nie.jpg);
+}
+.car-5{
+    background-image: url(Movie_images/megye\ meba.jpeg);
+}
+.car-6{
+    background-image: url(Movie_images/Evil\ powers.jpeg);
+}
+.car-7{
+    background-image: url(Movie_images/ase\ ye\ do.jpeg);
+}
+.car-8{
+    background-image: url(Movie_images/Asem\ bi\ Asi.jpeg);
+}
+.car-9{
+    background-image: url(Movie_images/the\ promise.jpeg);
+}
+.car-10{
+    background-image: url(Movie_images/Abagye\ Bone.jpeg);
+}
+.car-11{
+    background-image: url(Movie_images/Azonto\ Ghost.jpeg);
+}
+.car-12{
+    background-image: url(Movie_images/2016.jpeg);
+}
+.card h2{
+    padding-top: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{   
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;  
+    margin: 20px 70px;
+    text-decoration: none;
+
+}
+.card:hover{
+background-color: red;
+color: white;
+
+transform: scale(1.03);
+cursor: pointer;
+}
+
+.container2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card1{
+    background: white;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.img-card1{
+    background-color: grey;
+    height:158px ;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 ;
+
+}
+
+.card1 h2{
+    padding-top: 10px;
+}
+.card1 p{
+    padding: 10px;
+}
+.card1 a{   
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;  
+    margin: 20px 70px;
+    text-decoration: none;
+
+}
+.card1:hover{
+background-color: red;
+color: white;
+
+transform: scale(1.03);
+cursor: pointer;
+}
